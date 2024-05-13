@@ -1,0 +1,43 @@
+table{
+    margin:1.5rem 3rem;
+    flex: 2;
+  }
+  table tbody{
+    flex: 9;
+  }
+  table thead{
+    flex: 1;
+    margin-bottom: 20px;
+    border-radius: 15px 15px 0px 0px;
+  }
+  table tr{
+    justify-content: space-around;
+    align-items: center;
+  }
+  table td,table th{
+    background-color: var(--pista);
+    text-align: center;
+    width: 100%;
+    margin: 2px;
+    border-collapse: collapse;
+    overflow: hidden;
+  }
+  table td{
+    height: 50px;
+    overflow: hidden;
+  }
+  table td{
+    background-color: var(--tea-green);
+  }
+  .choice{
+    justify-content: space-around;
+    padding: 4px;
+  }
+  .choice button{
+    background-color: var(--orange);
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    padding: 7px;
+  }
+  

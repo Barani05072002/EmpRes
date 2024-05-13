@@ -1,0 +1,12 @@
+.input-1{
+    padding-top: 15px;
+    margin-top: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.input-1 .select{
+    width: 50%;
+    padding: 5px;
+}

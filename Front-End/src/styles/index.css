@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald|Roboto);
+
+:root{
+    --federal-blue: #03045eff;
+    --honolulu-blue: #0077b6ff;
+    --pacific-cyan: #00b4d8ff;
+    --non-photo-blue: #90e0efff;
+    --light-cyan: #caf0f8ff;
+    --rich-black : #040F16;
+    --dark-slate : #283F3B;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: #fff; */
+}
+#root{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: #222;
+}
